@@ -19,6 +19,11 @@ body{
     margin-top: 50px;
     /* text-align: center; */
 }
+/* .radio input{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+} */
 
 #form{
     margin-top: 30px;
