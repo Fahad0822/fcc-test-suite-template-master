@@ -11,46 +11,54 @@
     <p id="description">Thank you for visitng Microverse</p>
 
     <form id="form">
-      <label id="name-label"></label>
-      <input id="name" type="text" placeholder="Enter your name here!">
-      <label id="email-label"></label>
-      <input type="email" placeholder="Enter your email here!"  id="email" required>
-      <label id="number-label"></label>
-      <input type="number" id="number" max="14" min="9" placeholder="Enter your number here!">
-      <h3>Enjoying the pair programming so far?</h3>
-      <select id="dropdown">
-        <option>Yes</option>
-        <option>No</option>
-      </select>
-      <h3>What would you like to see improved going forward</h3>
-      <input type="checkbox" value="Faster replies">
-      <input type="checkbox" value="Improved content quality">
-      <input type="checkbox" value="Frontend">
-      <input type="checkbox" value="Backend">
-      <input type="checkbox" value="Quality Assurance">
-      <input type="checkbox" value="Scholaraships">
-      <input type="checkbox" value="Less Trials">
-      <input type="checkbox" value="Forum">
-      <input type="checkbox" value="Additional courses">
-
+      <div class="form-group-name">
+        <label id="name-label">Name</label><br>
+        <input id="name" type="text" placeholder="Enter your name here!">
+      </div>
+      <br>
+      <div class="form-group-email">
+        <label id="email-label">Email</label><br>
+        <input type="email" placeholder="Enter your email here!"  id="email" required>
+      </div>
+      <br>
+      <div class="form-group-number">
+        <label id="number-label">Number</label><br>
+        <input type="number" id="number" max="14" min="9" placeholder="Enter your number here!">
+      </div>
+      <br>
+      <div class="form-group-radio">
+        <h3>Would you recommend us?</h3>
+        <div class="radio">
+          <input name="user-recommend" value="definitely" type="radio" checked="" dropdown="">
+          <input name="user-recommend" value="sort of" type="radio" checked="" dropdown="">
+        </div>
+      </div>
+      <div class="form-group-select">
+        <h3>Enjoying the pair programming so far?</h3>
+        <select id="dropdown">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+      <div>
+        <h3>What would you like to see improved going forward</h3>
+        <input type="checkbox" value="Faster replies">
+        <input type="checkbox" value="Improved content quality">
+        <input type="checkbox" value="Frontend">
+        <input type="checkbox" value="Backend">
+        <input type="checkbox" value="Quality Assurance">
+        <input type="checkbox" value="Scholaraships">
+        <input type="checkbox" value="Less Trials">
+        <input type="checkbox" value="Forum">
+        <input type="checkbox" value="Additional courses">
+      </div>
+      
       <textarea name="" id="" cols="30" rows="10" placeholder="Insert your additional message here"></textarea>
       <button id="Submit">Submit</button>
     </form>
 
+    <!-- https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80 -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>
